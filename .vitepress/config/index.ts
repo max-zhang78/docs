@@ -6,6 +6,7 @@ import { config as uz_UZ } from './uz_UZ'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/docs/',
   ...shared,
   locales: {
     root: { label: 'English', ...en },
